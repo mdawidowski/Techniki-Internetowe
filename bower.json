@@ -1,0 +1,31 @@
+{
+  "name": "WebSite",
+  "version": "1.0.0",
+  "authors": [
+    "MDawidowski"
+  ],
+  "description": "Static site generator for Foundation for Sites.",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "~6.2.0",
+    "motion-ui": "~1.2.2",
+    "polymer": "Polymer/polymer#^1.4.0",
+    "google-map": "GoogleWebComponents/google-map#^1.1.10"
+  },
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "homepage": "f32d12.firebaseapp.com"
+}

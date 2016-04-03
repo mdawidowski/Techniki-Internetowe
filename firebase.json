@@ -1,0 +1,9 @@
+{
+  "firebase": "f32d12",
+  "public": "dist",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
