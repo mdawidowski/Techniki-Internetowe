@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+	background-image: url("../img/tlo.jpg");
+	background-repeat: repeat;
+	background-position:right top;
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: lightblue;
+}
+
+.paper-card-lightblue{
+	background-color: lightblue;
+}
+
+.prawa {
+	float: right;
+	display:inline;
+}
+
+.lewa {
+	float: left;
+	display:inline;
+}

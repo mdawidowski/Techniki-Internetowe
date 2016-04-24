@@ -1,87 +1,63 @@
-<script src="bower_components/platform/platform.js"></script>
+<!-- Requires Foundation 4 | visit http://foundation.zurb.com to download -->
+
+<!-- Masonry Container -->
 <div class="row">
   <div class="large-12 columns">
-      <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
-  <button class="menu-icon" type="button" data-toggle></button>
-  <div class="title-bar-title">Menu</div>
+    <div clas="Callout">
+    <div id="masonryContainer">
+      <div class="masonry-brick">
+        <table>
+          <td><!pokaz slajdów>
+            <div class="row">
+              <div class="large-12 columns">
+                <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                  <ul class="orbit-container">
+                    <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                    <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                    <li class="is-active orbit-slide">
+                      <img class="orbit-image" src="http://lorempixel.com/500/900/sports/" alt="Sport">
+                      <figcaption class="orbit-caption">Pokaz slajdów, Sport</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                      <img class="orbit-image" src="http://lorempixel.com/500/900/sports/2/" alt="Sport2">
+                      <figcaption class="orbit-caption">Pokaz slajdów, Piłka Nożna</figcaption>
+                    </li>
+                  </ul>
+                  <nav class="orbit-bullets">
+                    <button class="is-active" data-slide="0"><span class="show-for-sr">Zdjęcia sport<span></button>
+                    <button data-slide="1"><span class="show-for-sr">Pokaz slajdów, Sport</span><span class="show-for-sr">Current Slide</span></button>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </td>
+        </table>
+      </div>
   </div>
-</div>
-<div class="row">
-  <div class="large-12 columns">
+      <div class="masonry-brick">
+        <table>
+          <td><a href="map.html"><img src="/assets/img/google.jpg"></td></a>
+        </table>
+      </div>
+      <div class="masonry-brick">
+        <table>
+          <td>
+        <a href="/plan.html"><img src="http://matchpointzyrardow.pl/wp-content/uploads/2015/08/KalBiurkowy_12_miesieczny_ikona_460pix-460x460-460x290.png"></a></td>
+    </table>
+      </div>
 
-</div>
-<!Pasek menu>
-<div class="top-bar" id="main-menu">
-  <div class="top-bar-left">
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li class="menu-text"><a href="/index.html">Instytut Informatyki Uniwersytetu Gdańskiego</a></li>
-    </ul>
-  </div>
-  <div class="top-bar-right">
-    <ul class="menu" data-responsive-menu="drilldown medium-dropdown">
-      <li class="has-submenu">
-        <a href="#">Studia</a>
-        <ul class="submenu menu vertical" data-submenu>
-          <li><a href="#">Rekrutacja</a></li>
-          <li><a href="#">Stacjonarne</a></li>
-          <li><a href="#">Niestacjonarne</a></li>
-          <li><a href="#">Doktoranckie</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Struktura Instytutu</a></li>
-      <li><a href="#">Działalność naukowa</a></li>
-      <li class="has-submenu">
-        <a href="#">Aktualności</a>
-        <ul class="submenu menu vertical" data-submenu>
-          <li><a href="#">Wydarzenia</a></li>
-          <li><a href="#">Dla studentów</a></li>
-          <li><a href="#">Informacja PK</a></li>
-        </ul>
-      </li>
-      <li class="has-submenu">
-        <a href="#">Zaliczenie</a>
-        <ul class="submenu menu vertical" data-submenu>
-          <li><a href="/plan.html">Plan lekcji</a></li>
-          <li><a href="#">Article</a></li>
-          <li><a href="/map.html">Mapa</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<!Slajdy>
-
-<div class="row">
-  <div class="large-12 columns">
-    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-      <ul class="orbit-container">
-        <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-        <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-        <li class="is-active orbit-slide">
-          <img class="orbit-image" src="http://ug.edu.pl/sites/default/files/styles/adaptive/public/_nodes/budynek/5724/images/budynek_0709.jpg?itok=rwPD0GEl" alt="Potok Bystra">
-          <figcaption class="orbit-caption">Uniwersytet Gdański, Instytut Informatyki</figcaption>
-        </li>
-        <li class="orbit-slide">
-          <img class="orbit-image" src="http://ug.edu.pl/sites/default/files/styles/adaptive/public/_nodes/budynek/5724/images/p1050139.jpg?itok=SWq_C5tZ" alt="Kalatówki">
-          <figcaption class="orbit-caption">Uniwersytet Gdański, Instytut Informatyki</figcaption>
-        </li>
-      </ul>
-      <nav class="orbit-bullets">
-        <button class="is-active" data-slide="0"><span class="show-for-sr">Instytut Informatyki<span></button>
-        <button data-slide="1"><span class="show-for-sr">Instytut Informatyki</span><span class="show-for-sr">Current Slide</span></button>
-      </nav>
+      <div class="masonry-brick">
+        <table>
+        <td><a href="/yslow.html"><img src="/assets/img/seowp-badge-yslow-logo.png"></a></td>
+      </table>
+      </div>
+      <div class="masonry-brick">
+        <table>
+      <td><a href="math.html"><img src="/assets/img/mathjax.png"></td></a>
+    </table>
+      </div>
     </div>
   </div>
 </div>
 
-
-<!Stopka>
-<footer class="footer">
-<div class="row">
-  <p>Opracowanie: Marcin Dawidowski</p>
-  <a href="mailto:mdawidowski@sigma.inf.ug.edu.pl?Subject=Hello" target="_top">Kontakt</a>
-  <p class="copywrite">Copywrite © 2015</p>
-  </div>
-</div>
-</footer>
+<!Slajdy>
